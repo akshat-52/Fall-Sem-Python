@@ -1,0 +1,10 @@
+print("<<< Hey Programmers !!! Welcome to python programming >>>")
+print("<<< This python program is for calculating simple interest >>>")
+print("---------------------------------------------------------------")
+p=float(input("Enter the value of Principal Amount: "))
+r=float(input("Enter the value of Rate per Annum: "))
+t=float(input("Enter the value of time: "))
+si=(p*r*t)/100
+print("The Value of Simple Interest is ",si)
+print("---------------------------------------------------------------")
+print("\n<<< Thank You for using my Program !!! >>>")

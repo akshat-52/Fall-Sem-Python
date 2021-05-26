@@ -1,0 +1,19 @@
+r=int(input("Enter number of rows needed : "))
+n=0
+j=1
+while n!=r:
+    c=0
+    b=64
+    if j%2!=0:
+        while c<=n:
+            b+=1
+            c+=1
+            print(chr(b),end=' ')
+    if j%2==0:
+        while c<=n:
+            b+=1
+            c+=1
+            print(chr(b),end=" ")
+    j+=1
+    print(end="\n")
+    n+=1
